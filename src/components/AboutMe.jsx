@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { base_url } from '../utils/constants'
 
 const AboutMe = () => {
-  const [hero, setHero] = React.useState();
+  const [hero, setHero] = useState();
 
   useEffect(() => {
     const fetchHeroData = async () => {

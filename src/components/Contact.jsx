@@ -3,7 +3,7 @@ import '../Contact.css'
 import { base_url } from '../utils/constants'
 
 const Contact = () => {
-  const [planets, setPlanets] = React.useState(['wait...']);
+  const [planets, setPlanets] = useState(['wait...']);
 
   useEffect(() => {
     const fetchPlanets = async () => {
