@@ -9,6 +9,8 @@ import { PageContext } from '../PageContext.jsx'
 const Main = () => {
   const { page } = useContext(PageContext);
 
+  console.log('Current page:', page); // Добавьте эту строку для отладки
+
   return (
     <main className="container">
       {page === navItems[0] && <Home />}
